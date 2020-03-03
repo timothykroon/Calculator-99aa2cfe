@@ -9,7 +9,7 @@ $eersteGetal = readline();
 echo "Tweede Getal?" . PHP_EOL;
 $tweedeGetal = readline();
 
-if($ding == "+"){
+if($ding == "+") {
     $resultaat = $eersteGetal + $tweedeGetal;
 } elseif($ding == "-") {
     $resultaat = $eersteGetal - $tweedeGetal;
